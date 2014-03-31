@@ -41,7 +41,6 @@ body {
 
 /* Portrait layout (default) */
 .app {
-
     margin: 0 auto;
     overflow: hidden;
 	position: absolute;
@@ -66,14 +65,8 @@ body {
 
 /* If you want you can use font-face */
 
-.container {
-    width: 960px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
 .clock {
-    width: 800px;
+    width: 91%;
     margin: 0 auto;
     padding: 30px;
     border: 1px solid #333;
@@ -82,7 +75,7 @@ body {
 
 #Date {
     font-family:DS-Digital;
-    font-size: 36px;
+    font-size: 70px;
     text-align: center;
     text-shadow: 0 0 5px #00c6ff;
 }
@@ -97,7 +90,7 @@ ul {
 
 ul li {
     display: inline;
-    font-size: 10em;
+    font-size: 15em;
     text-align: center;
     font-family:DS-Digital;
     text-shadow: 0 0 5px #00c6ff;
