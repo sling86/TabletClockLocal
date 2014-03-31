@@ -4,12 +4,12 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.contractcandles.clocktest"
-        version   = "1.0.3">
+        version   = "1.0.4">
 
-    <name>Clock</name>
+    <name>Clock TEST</name>
 
     <description>
-        Clock app for Contract Candles LTD.
+        Clock TEST app for Contract Candles LTD.
     </description>
 
     <author href="http://contractcandles.com" email="tony.malins@contractcandles.com">
