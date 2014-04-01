@@ -81,6 +81,7 @@ var app = {
 				//var hours = new Date().getHours();
 				var hours = currentTime.getHours();
 				
+				$(".ampm").html(( hours < 12 ? "AM" : "PM" ));
 				// Convert the hours component to 12-hour format if needed
 				hours = ( hours > 12 ? hours - 12 : hours );
 				// Convert an hours component of "0" to "12"
@@ -90,7 +91,7 @@ var app = {
 				//$(".hours").html(( hours < 10 ? "0" : "" ) + hours );
 				$(".hours").html( hours );
 				
-				$(".12hr").html(( hours < 12 ? "AM" : "PM" ));
+				
 				
 			}, tickTime);
 			

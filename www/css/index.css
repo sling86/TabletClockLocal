@@ -46,7 +46,7 @@ body {
   	top: 50%;
   	left: 50%;
 	width:100%;
-	height:6em;
+	height:100%;
   	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);    /* Older Gecko browser */
 	-ms-transform: translate(-50%, -50%);     /* IE9+ */
@@ -65,68 +65,69 @@ body {
     }
 }
 
-/* If you want you can use font-face */
-
-.clock {
-	position:relative;
-	height:5em;
+#container {
+    overflow: hidden;
+	height:87%;
+	line-height:2.3em;
     margin: 15px;
     padding: 15px;
     border: 1px solid #333;
     color: #fff;
+	text-shadow: 0 0 10px #00c6ff;
+	text-align:center;
 }
 
 .date {
 	clear:both;
-    font-family:DS-Digital;
-    font-size: 0.8em;
-    text-align: center;
-    text-shadow: 0 0 5px #00c6ff;
-}
-
-ul {
-	margin: 0 auto;
-	padding: 0px;
-	list-style: none;
-	float:left;
-}
-
-ul li {
-	position:relative;
-    display: inline-block;
-    font-size: 4em;
-    font-family:DS-Digital;
-    text-shadow: 0 0 10px #00c6ff;
-	width:1em;
-	height:1em;
-	line-height:1em;
 	margin:0;
-	padding:0;
-	float:left;
+    font-family:DS-Digital;
+    font-size: 1em;
+	font-weight:normal;
+    text-align: center;
 }
+
+#clock {
+	margin: 0 auto;
+	padding: 0;
+	width:95%;
+	height:4em;
+	line-height:4em;
+}
+
+#clock span {
+	position: relative;
+	display: block;
+	font-family: DS-Digital;
+	padding: 0;
+}
+
+.mainClockSize {
+		font-size:5em;
+	}
 
 .hours {
+	float:left;
 	text-align:right;
+	
 }
 
 .min {
-	text-align:left;	
+	float:left;
 }
 
 .point {
-    position: relative;
+	float:left;
 	width:.2em;
-	text-align:left;
     -moz-animation: mymove 1s ease infinite;
     -webkit-animation: mymove 1s ease infinite;
 }
 
-.12hr {
-	position:relative;
-	display:inline-block;
-	width:1em;
-	height:1em;
-	line-height: 1em;
+.ampm {
+	font-size:2em;
+	line-height:3em;
+	float:left;
+	text-align:left;
+	margin-left:.175em;
 }
 
 /* Simple Animation */

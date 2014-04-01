@@ -22,24 +22,20 @@
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Clock</title>
     </head>
     <body>
         <div class="app">
-            <div class="clock">
-            <div class="date">Tuesday 1 April 2014</div>
-              <ul>
-                  <li class="hours" name="hours">11</li>
-                  <li class="point">:</li>
-                  <li class="min">00</li>
-                  <!--<li id="point">:</li>
-                  <li id="sec">00</li>
-                  <li id="point">:</li>
-                  <li id="millisec">00</li>-->
-              </ul>
-              <div class="12hr">AM</div>
+        <div id="container">
+            <h2 class="date">Tuesday 1 April 2014</h2>
+              <div id="clock">              
+                  <span class="hours mainClockSize" name="hours">88</span>
+                  <span class="point mainClockSize">:</span>
+                  <span class="min mainClockSize">88</span>
+                  <span class="ampm">AM</span>
+            </div>
             </div>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
