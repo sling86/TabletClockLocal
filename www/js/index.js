@@ -87,8 +87,8 @@ var app = {
 				hours = ( hours == 0 ? 12 : hours );
 				
 				// Add a leading zero to the hours value
-				$(".hours").html(( hours < 10 ? "0" : "" ) + hours );
-				
+				//$(".hours").html(( hours < 10 ? "0" : "" ) + hours );
+				$(".hours").html( hours );
 				
 				$(".12hr").html(( hours < 12 ? "AM" : "PM" ));
 				

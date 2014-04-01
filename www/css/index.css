@@ -88,7 +88,6 @@ ul {
 	margin: 0 auto;
 	padding: 0px;
 	list-style: none;
-	width:100%;
 	float:left;
 }
 
@@ -123,10 +122,11 @@ ul li {
 }
 
 .12hr {
-	float:right;
 	position:relative;
-	font-size:0.5em;
-	width:1.3em;
+	display:inline-block;
+	width:1em;
+	height:1em;
+	line-height: 1em;
 }
 
 /* Simple Animation */
